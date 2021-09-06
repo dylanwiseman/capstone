@@ -17,7 +17,7 @@ function App() {
     }
   }, []);
 
-  return <div className="App">{userData.username}</div>;
+  return <div className="App">{JSON.stringify(userData)}</div>;
 }
 
 export default App;
